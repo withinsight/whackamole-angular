@@ -9,7 +9,12 @@
     "lint": "eslint src/js",
     "uglify": "mkdir -p dist/js && uglifyjs src/js/*.js -m -o dist/js/app.js",
     "watch:css": "onchange 'src/scss/*.scss' -- npm run scss",
-    "app": "npm-run-all --parallel serve watch:css"
+    "watch:js": "onchange 'src/js/*.js' -- npm run build:js",
+    "app": "npm-run-all --parallel serve watch:css watch:js",
+    "build:css": "npm run scss",
+    "build:js": "npm run lint && npm run uglify",
+    "build:all": "npm run build:css && npm run build:js"
+
   },
   "author": "Jeff Pelletier",
   "license": "ISC",
