@@ -4,11 +4,13 @@
   "description": "A whackamole demo using AngularJS",
   "main": "index.js",
   "scripts": {
-    "scss": "node-sass --output-style compressed -o dist/css src/scss"
+    "scss": "node-sass --output-style compressed -o dist/css src/scss",
+    "serve": "browser-sync start --server --files 'dist/css/*.css, dist/js/*.js'"
   },
   "author": "Jeff Pelletier",
   "license": "ISC",
   "devDependencies": {
+    "browser-sync": "^2.18.8",
     "node-sass": "^4.5.2"
   }
 }
