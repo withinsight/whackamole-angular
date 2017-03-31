@@ -6,6 +6,7 @@
   "scripts": {
     "scss": "node-sass --output-style compressed -o dist/css src/scss",
     "serve": "browser-sync start --server --files 'index.html, dist/css/*.css, dist/js/*.js'",
+    "lint": "eslint src/js",
     "watch:css": "onchange 'src/scss/*.scss' -- npm run scss",
     "app": "npm-run-all --parallel serve watch:css"
   },
@@ -14,6 +15,8 @@
   "devDependencies": {
     "browser-sync": "^2.18.8",
     "eslint": "^3.18.0",
+    "eslint-config-airbnb-base": "^11.1.2",
+    "eslint-plugin-import": "^2.2.0",
     "node-sass": "^4.5.2",
     "npm-run-all": "^4.0.2",
     "onchange": "^3.2.1",
