@@ -13,8 +13,10 @@
   "license": "ISC",
   "devDependencies": {
     "browser-sync": "^2.18.8",
+    "eslint": "^3.18.0",
     "node-sass": "^4.5.2",
     "npm-run-all": "^4.0.2",
-    "onchange": "^3.2.1"
+    "onchange": "^3.2.1",
+    "uglify-js": "^2.8.20"
   }
 }
