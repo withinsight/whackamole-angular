@@ -4,7 +4,7 @@
   "description": "A whackamole demo using AngularJS",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "scss": "node-sass --output-style compressed -o dist/css src/scss"
   },
   "author": "Jeff Pelletier",
   "license": "ISC",
