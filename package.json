@@ -12,7 +12,7 @@
     "watch:js": "onchange 'src/js/*.js' -- npm run build:js",
     "app": "npm-run-all --parallel serve watch:css watch:js",
     "build:css": "npm run scss",
-    "build:js": "npm run lint && npm run uglify",
+    "build:js": "npm run uglify",
     "build:all": "npm run build:css && npm run build:js"
   },
   "author": "Jeff Pelletier",

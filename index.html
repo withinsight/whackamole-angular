@@ -10,6 +10,9 @@
     <script src="/node_modules/angular/angular.min.js"></script>
     <script src="/dist/js/app.js"></script>
   </head>
-  <body>
+  <body ng-app="moleApp">
+    <div ng-controller="MoleController as vm">
+      <span class="score">{{vm.score}}</span>      
+    </div>
   </body>
 </html>

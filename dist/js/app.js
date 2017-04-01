@@ -1,1 +1,1 @@
-console.log("ho");
+(function(){"use strict";angular.module("moleApp",[]).controller("MoleController",o);function o(){var o=this;o.score=0;n();function n(){}}})();
