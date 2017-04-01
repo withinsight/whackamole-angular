@@ -1,6 +1,10 @@
 <div class="sm-col sm-col-4 p4">
   <div class="hole-container">
     <div class="hole mx-auto"></div>
-    <div class="mole mx-auto"></div>
+    <div
+      class="mole mx-auto"
+      ng-class="{'show': mole.show}"
+      ng-click="vm.moleClicked()">
+    </div>
   </div>
 </div>>
