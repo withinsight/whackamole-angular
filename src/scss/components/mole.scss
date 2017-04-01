@@ -3,3 +3,14 @@
 //   Mole
 //
 // *************************************
+
+.mole {
+  transition: 0.3s linear all;
+  position: relative;
+  top: 0;
+  height: 50px;
+  width: 150px;
+  border-radius: 50%;
+  background: transparent url('/src/img/mole-waving.png') no-repeat 50% 0;
+  background-size: 100px;
+}

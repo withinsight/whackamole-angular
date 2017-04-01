@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "scss": "node-sass --output-style compressed src/scss/app.scss dist/css/app.css",
-    "serve": "browser-sync start --server --files 'index.html, dist/css/*.css, dist/js/*.js'",
+    "serve": "browser-sync start --server --files 'index.html, src/templates/*.html, dist/css/*.css, dist/js/*.js'",
     "lint": "eslint src/js",
     "uglify": "mkdir -p dist/js && uglifyjs src/js/*.js -m -o dist/js/app.js",
     "watch:css": "onchange 'src/scss/**/*.scss' -- npm run scss",

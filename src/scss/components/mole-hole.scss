@@ -3,3 +3,15 @@
 //   Mole Hole
 //
 // *************************************
+
+.hole-container {
+  height: 50px;
+  overflow: hidden;
+}
+
+.hole {
+  height: 50px;
+  width: 150px;
+  background-color: $c-depleted;
+  border-radius: 50%;
+}
