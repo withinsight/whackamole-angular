@@ -1,1 +1,1 @@
-(function(){"use strict";angular.module("moleApp",[]).controller("MoleController",o);function o(){var o=this;o.score=0;n();function n(){}}})();
+(function(){"use strict";angular.module("moleApp",[]).controller("MoleController",s);function s(){var s=this;s.score=0;s.moles=[{show:false},{show:false},{show:false},{show:false},{show:false},{show:false},{show:false},{show:false},{show:false}];o();function o(){}}})();

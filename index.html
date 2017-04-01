@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html ng-app="moleApp">
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,9 +10,20 @@
     <script src="/node_modules/angular/angular.min.js"></script>
     <script src="/dist/js/app.js"></script>
   </head>
-  <body ng-app="moleApp">
-    <div ng-controller="MoleController as vm">
-      <span class="score">{{vm.score}}</span>      
+  <body ng-controller="MoleController as vm">
+    <div class="mole-grid">
+      <div class="clearfix">
+        <div class="sm-col sm-col-4 p4">
+          Mole
+        </div>
+        <div class="sm-col sm-col-4 p4">
+          Mole
+        </div>
+        <div class="sm-col sm-col-4 p4">
+          Mole
+        </div>
+      </div>
     </div>
+    <span class="score">{{vm.score}}</span>
   </body>
 </html>

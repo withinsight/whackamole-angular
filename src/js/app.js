@@ -10,6 +10,18 @@
 
     vm.score = 0;
 
+    vm.moles = [
+      {show: false},
+      {show: false},
+      {show: false},
+      {show: false},
+      {show: false},
+      {show: false},
+      {show: false},
+      {show: false},
+      {show: false}
+    ];
+
     activate();
 
     //////////
