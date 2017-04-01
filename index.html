@@ -13,14 +13,8 @@
   <body ng-controller="MoleController as vm">
     <div class="mole-grid">
       <div class="clearfix">
-        <div class="sm-col sm-col-4 p4">
-          Mole
-        </div>
-        <div class="sm-col sm-col-4 p4">
-          Mole
-        </div>
-        <div class="sm-col sm-col-4 p4">
-          Mole
+        <div ng-repeat="mole in vm.moles">
+          <div ng-include="'src/templates/mole.html'"></div>
         </div>
       </div>
     </div>
